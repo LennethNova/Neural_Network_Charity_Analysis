@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Files
+charity_data.csv
+untitled_project/
+checkpoints/
+
 # Distribution / packaging
 .Python
 build/
