@@ -15,15 +15,15 @@ The purpose of this challenge is to create a classifier that could predict wheth
 - The variables EIN and NAME will be dropped from the data since they don't have an impact in the model. This is for the first part.
 - For the optimization trial part, "ORGANIZATION" and "SPECIAL_CONSIDERATIONS" were removed in order to test the model since the graphs showed a big variance.
 
-![04](https://github.com/LennethNova/Challenge_02_VBA_of_WallStreet/blob/main/Resources/2018_stocks.PNG)
+![04](https://github.com/LennethNova/Neural_Network_Charity_Analysis/blob/main/images/04.PNG)
 
 #### Compiling, Training, and Evaluating the Model
 **Neurons, layers, and activation functions**
 - In the first model, there were two hidden layers, with 80 neurons the first and 30 neurons the second with the activation functions *relu* for the layers and *sigmoid* for the output.
 
-![01](https://github.com/LennethNova/Challenge_02_VBA_of_WallStreet/blob/main/Resources/2018_stocks.PNG)
+![01](https://github.com/LennethNova/Neural_Network_Charity_Analysis/blob/main/images/01.PNG)
 
-![02](https://github.com/LennethNova/Challenge_02_VBA_of_WallStreet/blob/main/Resources/2018_stocks.PNG)
+![02](https://github.com/LennethNova/Neural_Network_Charity_Analysis/blob/main/images/02.PNG)
 
 - **FOR THE OPTIMIZATON**
 - For the attempt one, the testing was without the organization and special consideration variables.
@@ -38,16 +38,16 @@ The purpose of this challenge is to create a classifier that could predict wheth
 ## Summary: 
 Since the dataset might need more data or cleaning, the accuracy of the model before the optimization was at about 72% in accuracy and had a loss of 56%. Unfortunately, removing some data, playing with the layers, activation, epoch and other attributes was not enough to improve the model, and it ended in 52% of accuracy and 70% loss. There were some other approaches that could work if there was enough time to complete the task, and will be tasted at a later time. Those approaches could be by using random forests in order to test the data for possible better results and also more testing on the actual model using different layers, neurons, activations, process, etc.
 
-![03](https://github.com/LennethNova/Challenge_02_VBA_of_WallStreet/blob/main/Resources/2018_stocks.PNG)
+![03](https://github.com/LennethNova/Neural_Network_Charity_Analysis/blob/main/images/03.PNG)
 
-![05](https://github.com/LennethNova/Challenge_02_VBA_of_WallStreet/blob/main/Resources/2018_stocks.PNG)
+![05](https://github.com/LennethNova/Neural_Network_Charity_Analysis/blob/main/images/05.PNG)
 
-![06](https://github.com/LennethNova/Challenge_02_VBA_of_WallStreet/blob/main/Resources/2018_stocks.PNG)
+![06](https://github.com/LennethNova/Neural_Network_Charity_Analysis/blob/main/images/06.PNG)
 
-![07](https://github.com/LennethNova/Challenge_02_VBA_of_WallStreet/blob/main/Resources/2018_stocks.PNG)
+![07](https://github.com/LennethNova/Neural_Network_Charity_Analysis/blob/main/images/07.PNG)
 
-![08](https://github.com/LennethNova/Challenge_02_VBA_of_WallStreet/blob/main/Resources/2018_stocks.PNG)
+![08](https://github.com/LennethNova/Neural_Network_Charity_Analysis/blob/main/images/08.PNG)
 
-![09](https://github.com/LennethNova/Challenge_02_VBA_of_WallStreet/blob/main/Resources/2018_stocks.PNG)
+![09](https://github.com/LennethNova/Neural_Network_Charity_Analysis/blob/main/images/09.PNG)
 
-![10](https://github.com/LennethNova/Challenge_02_VBA_of_WallStreet/blob/main/Resources/2018_stocks.PNG)
+![10](https://github.com/LennethNova/Neural_Network_Charity_Analysis/blob/main/images/10.PNG)
